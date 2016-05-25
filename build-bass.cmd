@@ -6,6 +6,6 @@ del .\out\TototekMenu.sfc
 
 echo Building...
 
-..\..\Tools\xkas\xkas.exe TototekMenu.asm .\out\TototekMenu.sfc
+..\..\Tools\bass\bass.exe -create -benchmark -o .\out\TototekMenu.sfc TototekMenu.asm
 
 echo Done.
